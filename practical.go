@@ -47,7 +47,7 @@ func main() {
 
 //here w  is a writer, request
 func indexHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Whoa, Go is fucking cool!")
+	fmt.Fprintf(w, "Go is cool!")
 }
 
 func squareroot() {
